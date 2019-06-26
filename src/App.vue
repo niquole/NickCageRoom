@@ -24,6 +24,7 @@ export default {
     move: function(event) {
       this.x = event.clientX;
       this.y = event.clientY;
+      
     }
   }
 }
