@@ -12,20 +12,6 @@ export default {
   name: 'app',
   components: {
     nick
-  },
-  data() {
-    return {
-      x: "",
-      y: ""
-
-    }
-  },
-  methods: {
-    move: function(event) {
-      this.x = event.clientX;
-      this.y = event.clientY;
-      
-    }
   }
 }
 </script>
